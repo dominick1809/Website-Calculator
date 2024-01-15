@@ -1,0 +1,51 @@
+/* Set the font family, background color, and remove margins and paddings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style for the h1 heading */
+h1 {
+    color: #333;
+}
+
+/* Style for the result element */
+#result {
+    /* Take up the full width of the parent container */
+    width: 100%;
+    box-sizing: border-box;
+    /* Add some margin and padding */
+    margin: 10px 0;
+    padding: 10px;
+    /* Increase the font size */
+    font-size: 1.5em;
+    /* Align the text to the right */
+    text-align: right;
+    /* Add a border and border radius */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the button element */
+button {
+    /* Set the width and height */
+    width: 50px;
+    height: 50px;
+    /* Add some margin */
+    margin: 5px;
+    /* Increase the font size */
+    font-size: 1.2em;
+    /* Remove the border */
+    border: none;
+    /* Add border radius */
+    border-radius: 5px;
+    /* Add a cursor style */
+    cursor: pointer;
+}
